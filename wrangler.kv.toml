@@ -52,7 +52,7 @@ storage = "sqlite"
 binding = "AI"
 
 [triggers]
-crons = ["* * * * *"]
+crons = ["*/1 * * * *"]
 
 [vars]
 APP_NAME = "Inkstone"
